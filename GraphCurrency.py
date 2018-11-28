@@ -1,7 +1,6 @@
 #Name: Arnold Okumagba
-#Course: CST 205
 #Title: Currency History
-#Abstract: Plots the data that is retrieved from a JSON data that getes pulled
+#Abstract: Plots the data that is retrieved from a JSON data that gets pulled
 #from fixer.io and plots them in a graph of the previous 10 days with the different
 #currency fluctuation of selected currency.
 
@@ -13,7 +12,7 @@ matplotlib.use('TkAgg')
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
 
-#checks system version and imports proper Tkinter module
+# searches forsystem version and imports proper Tkinter module
 import sys
 if sys.version_info[0] < 3:
     import Tkinter as Tk
